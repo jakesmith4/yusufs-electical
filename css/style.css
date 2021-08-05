@@ -1233,6 +1233,9 @@ Contact Page
   display: block;
   padding: 0.5rem;
   border: transparent;
+  letter-spacing: 2px;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 .form-control input:focus,
@@ -1241,8 +1244,8 @@ Contact Page
 }
 
 .form-control input::placeholder,
-.form-control textarea {
-  letter-spacing: 1px;
+.form-control textarea::placeholder {
+  letter-spacing: 2px;
   font-size: 1rem;
   color: rgb(134, 132, 132);
 }
@@ -1255,7 +1258,7 @@ Contact Page
   padding: 0.4rem;
   background: var(--clr-primary);
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 2px solid transparent;
   font-size: 1.3rem;
   letter-spacing: 1px;
