@@ -171,7 +171,7 @@ Banner
 .banner {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../img/hero-img.jpg") no-repeat center/cover;
+    url("../img/hero-img-min.jpg") no-repeat center/cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -299,7 +299,7 @@ Services Section
 .services {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../img/services-img-2.jpg") no-repeat center/cover;
+    url("../img/services-img-2-min.jpg") no-repeat center/cover;
   padding: 20px 0 80px 0;
 }
 
@@ -538,7 +538,7 @@ Filler Section
 */
 .filler-contact {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../img/filler-img.jpg") no-repeat center/cover;
+    url("../img/filler-img-min.jpg") no-repeat center/cover;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -633,8 +633,14 @@ Post Section
   padding: 10px 5px 30px;
 }
 
+.text-container h2 {
+  min-height: 56px;
+}
+
 .text-container p {
-  margin: 15px 0 25px;
+  margin: 15px auto 10px;
+  min-height: 95px;
+  padding: 0 0.5rem;
 }
 
 .text-container a {
@@ -645,6 +651,7 @@ Post Section
   background: var(--clr-black);
   color: var(--clr-white);
   transition: var(--transition);
+  display: inline-block;
 }
 
 .text-container a:hover {
@@ -716,7 +723,7 @@ About Page
 .about-banner {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../img/about-background-2.jpg") no-repeat center/cover;
+    url("../img/about-hero-yusuf-min.jpg") no-repeat center/cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -858,7 +865,7 @@ Services Page
 .services-banner {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../img/services-hero.jpg") no-repeat center/cover;
+    url("../img/services-hero-min.jpg") no-repeat center/cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -941,10 +948,10 @@ Services Card Section
   border: 2px solid var(--clr-black);
   border-radius: 10px;
   background: var(--clr-primary);
-  padding: 1rem 0;
+  padding: 1rem 0.5rem;
   margin-bottom: 2rem;
   transition: var(--transition);
-  min-height: 211px;
+  min-height: 275px;
 }
 
 .services-card:hover {
@@ -1012,7 +1019,7 @@ Blog Page
 .blog-banner {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../img/blog-hero.jpg") no-repeat center/cover;
+    url("../img/blog-hero-min.jpg") no-repeat center/cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -1063,7 +1070,7 @@ Lighting And Install
 .lighting-banner {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../img/lighting-installation.jpg") no-repeat center/cover;
+    url("../img/lighting-installation-min.jpg") no-repeat center/cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -1150,7 +1157,7 @@ Contact Page
 .contact-banner {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../img/contact.jpg") no-repeat center/cover;
+    url("../img/contact-min.jpg") no-repeat center/cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -1185,7 +1192,8 @@ Contact Page
 
 .contact-item-2 {
   border: 2px solid transparent;
-  background: url("../img/phone-background.jpg") no-repeat center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/phone-background-min.jpg") no-repeat center/cover;
 }
 
 .contact-item-2 h2 {
@@ -1283,7 +1291,7 @@ Blog Page
 .blog-page-banner {
   min-height: 70vh;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../img/light-bulbs.jpg") no-repeat center/cover;
+    url("../img/light-bulbs-min.jpg") no-repeat center/cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
